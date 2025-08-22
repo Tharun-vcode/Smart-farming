@@ -4,8 +4,8 @@ import time
 import os
 
 # Auto-detect COM port (change if needed)
-PORT = "COM7"   # update if your ESP32 is on a different port
-BAUD = 115200
+PORT = "PORT"   # update if your ESP32 is on a different port
+BAUD = NO
 
 arduino = serial.Serial(port=PORT, baudrate=BAUD, timeout=1)
 
@@ -44,3 +44,4 @@ while True:
     except Exception as e:
         print("Error:", e)
         time.sleep(1)
+
