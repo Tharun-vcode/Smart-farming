@@ -21,4 +21,4 @@ This project integrates **IoT sensor data**, **weather APIs**, and **machine lea
 
 ---
 
-## 📂 Project Structure
+
